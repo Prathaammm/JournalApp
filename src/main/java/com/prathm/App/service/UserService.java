@@ -35,6 +35,6 @@ public class UserService {
     }
 
     public User findByUsername(String userName){
-        return userRepo.findByUsername(userName);
+        return userRepo.findByUserName(userName);
     }
 }
